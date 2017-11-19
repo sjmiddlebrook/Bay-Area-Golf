@@ -20,6 +20,10 @@ app.get('/private',function(req,res){
     res.render('private');
 });
 
+app.get('/budget',function(req,res){
+    res.render('budget');
+});
+
 
 app.use(function(req,res){
     res.status(404);
