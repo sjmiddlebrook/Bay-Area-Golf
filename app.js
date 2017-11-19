@@ -24,6 +24,10 @@ app.get('/budget',function(req,res){
     res.render('budget');
 });
 
+app.get('/map',function(req,res){
+    res.render('map');
+});
+
 
 app.use(function(req,res){
     res.status(404);
