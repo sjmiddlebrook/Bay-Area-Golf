@@ -8,10 +8,19 @@
     border: solid black;
 }
 
+/* Formatting for button to map of golf courses*/
 #map_link {
     margin: 3rem;
     padding: 1rem;
 }
+
+/* Formatting for headers on each page */
+
+.display-4 {
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+
 
 /* GLOBAL STYLES
 -------------------------------------------------- */
