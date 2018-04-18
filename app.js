@@ -20,10 +20,6 @@ app.get('/private',function(req,res){
     res.render('private');
 });
 
-app.get('/budget',function(req,res){
-    res.render('budget');
-});
-
 app.get('/map',function(req,res){
     res.render('map');
 });
